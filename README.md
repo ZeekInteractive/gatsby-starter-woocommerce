@@ -3,7 +3,7 @@
 ## Get started
 
 - Install the dependencies via `npm install`
-- Copy `.env.sample` and create `.env.development` file with the URL to your WordPress GraphQL API
+- Copy `.env.sample` and create `.env.development` file with the URL to your WordPress GraphQL API and Stripe public API key
 
 ## What's included?
 
