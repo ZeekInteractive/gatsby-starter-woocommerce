@@ -7,6 +7,10 @@ import { Order } from '../../../types/Order'
 const OrderReceived: React.FC<PageProps> = ({ location }) => {
   const order = location.state as Order
 
+  if (typeof window === 'undefined') {
+    return null
+  }
+
   const { orderNumber, total, lineItems } = order
 
   return (
